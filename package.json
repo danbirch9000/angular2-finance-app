@@ -42,6 +42,7 @@
     "browser-sync": "^2.11.1",
     "concurrently": "^1.0.0",
     "flexboxgrid": "^6.3.0",
+    "materialize-css": "^0.97.6",
     "node-sass": "^3.4.2",
     "postcss": "^5.0.14",
     "tslint": "^3.4.0-dev.1",
