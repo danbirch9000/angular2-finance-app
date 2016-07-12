@@ -35,9 +35,10 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                         selector: 'parallax',
                         template: "\n    <div \n      class=\"bg fadeIn fadeIn-3s fadeIn-Delay-3s\" \n      [style.backgroundPosition]=\"position\">\n    </div>\n  "
                     }), 
-                    __metadata('design:paramtypes', [core_1.ElementRef])
+                    __metadata('design:paramtypes', [(typeof (_a = typeof core_1.ElementRef !== 'undefined' && core_1.ElementRef) === 'function' && _a) || Object])
                 ], ParallaxComponent);
                 return ParallaxComponent;
+                var _a;
             }());
             exports_1("ParallaxComponent", ParallaxComponent);
         }

@@ -81,9 +81,10 @@ System.register(['angular2/core', '../../common/utils/utils'], function(exports_
                         selector: 'main-header',
                         template: "\n    <header [class]=\"headerClass\">\n      <div class=\"inner\">\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <div class=\"box\"><h1>{{names}}</h1></div>\n          </div>\n          <div class=\"col-md-8\">\n            <div class=\"box\">\n              <nav>\n                <ul>\n                  <li *ngFor=\"#link of links;#i = index\">\n                    <a \n                      (click)=\"scrollTo($event, i)\" \n                      [class]=\"isActive(i)\"\n                      href=\"#\">\n                      {{link}}\n                    </a>\n                  </li>\n                </ul>\n              </nav>\n            </div>\n          </div>\n        </div>\n      </div>\n    </header>\n  "
                     }), 
-                    __metadata('design:paramtypes', [core_1.ElementRef])
+                    __metadata('design:paramtypes', [(typeof (_a = typeof core_1.ElementRef !== 'undefined' && core_1.ElementRef) === 'function' && _a) || Object])
                 ], HeaderComponent);
                 return HeaderComponent;
+                var _a;
             }());
             exports_1("HeaderComponent", HeaderComponent);
         }
